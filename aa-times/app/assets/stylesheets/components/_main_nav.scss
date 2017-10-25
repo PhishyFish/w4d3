@@ -1,34 +1,47 @@
 .main-nav {
-
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid $light-gray;
 }
 
 .left-nav > ul,
 .right-nav > ul {
-
+  display: flex;
+  align-items: center;
 }
 
 .left-nav > ul > li {
-
+  font-family: $sans-serif;
+  margin-right: 25px;
+  padding: 8px;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
 }
 
 .right-nav > ul > li {
-
+  margin-left: 5px;
 }
 
 .right-nav > ul > li:last-of-type {
-
+  // margin-left: 30px;
+  padding: 8px;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
 }
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
-
+  background-color: $light-gray;
 }
 
 .left-nav span {
-
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 
 .right-nav i {
-
+  font-size: 14px;
 }
